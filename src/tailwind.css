@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* html tag style  */
+@layer base {
+  body {
+    @apply font-Agrandir font-normal bg-[#2C2C2C] text-white;
+  }
+}
+
+/* layer style to add multiple class */
+@layer components {
+  .container {
+    @apply max-w-[1000px];
+  }
+}
+
+/* custom style */
+@layer utilities {
+  .textStyle1 {
+    -webkit-text-fill-color: #2c2c2c;
+    -webkit-text-stroke: 0.32px white;
+    letter-spacing: 1px;
+  }
+}
