@@ -12,7 +12,7 @@
 /* layer style to add multiple class */
 @layer components {
   .container {
-    @apply max-w-[1000px];
+    @apply max-w-[1300px];
   }
 }
 
